@@ -1,0 +1,69 @@
+.achievement {
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 5px 16px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background: white;
+}
+
+.cups {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cup {
+    height: 80%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.team-photo {
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.achievement h1 {
+    font-size: 150px;
+    background: linear-gradient(8deg, #3e31fa 19.1%, #8760F6 94.27%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.legends-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.legend {
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.legend img {
+    flex: 1;
+}
+
+.legend table {
+    flex: 1;
+    border-spacing: 0;
+    width: 300px;
+    background: white;
+}
+
+.legend tr:nth-child(odd) {
+    background: #000;
+    color: white;
+}
